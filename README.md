@@ -2,9 +2,9 @@
 
 Pratisyen ve aile hekimleri için tek dosyalık karar destek uygulaması.
 
-**Durum: 0.1.0-preview — arayüz önizlemesi. Klinik kullanım için hazır değildir.**
+**Durum: 0.2.0-preview — geliştirme önizlemesi. Klinik kullanım için hazır değildir.**
 
-Onaylanan 30 tanı listelenir. Henüz yayımlanmış klinik reçete yoktur. Güncel satış/fiyat, doz/süre/ambalaj ve pratisyen/SUT koşulları doğrulanmadan ilaç önerisi açılmaz. Bu ayrım uygulamada da görünürdür.
+40 tanı listelenir. Yeni 10 tanıda 4 etken maddeye dayanan 16 kaynaklı kullanım seçeneği bulunur. Bu bilgiler hazır reçete değildir; yayımlanmış tam doğrulanmış reçete sayısı sıfırdır. Ticari ürün, güncel satış/fiyat, kutu hesabı ve pratisyen/SUT koşulları tamamlanmadan marka veya tam reçete açılmaz.
 
 ## Kullanım
 
@@ -16,7 +16,7 @@ Uygulamayı güncellemek için kök dizindeki `index.html` değiştirilir. Haric
 
 - Türkçe karakter ve küçük yazım hatalarına toleranslı tanı araması, bölüm seçimi ve filtreler.
 - Tanıdan geri dönüşte arama, filtre ve liste konumunu koruma.
-- Hasta durumu seçimleri; ilaçlara özgü risk eşleştirmesi henüz hazırlanmadığı için bu durum açıkça belirtilir.
+- Hasta durumu seçimleri; yeni etken madde bilgilerinde kaynağa bağlı uyarılar ve gerekli durumlarda standart dozu gizleme. Otomatik uygunluk veya kişisel doz hesabı yapılmaz.
 - Tanı bağlantısını paylaşma; yalnızca açık oturumda tutulan kişisel notlar. Reçete kopyalama düğmesi yoktur.
 - Açık, koyu ve saf siyah tema; renk paleti, yazı boyutu/stili, renk körlüğü modu ve liste yoğunluğu.
 - Ayrı raporlu ilaç yenileme bölümü, Hakkında, gizlilik ve telif bildirimleri.
@@ -24,6 +24,8 @@ Uygulamayı güncellemek için kök dizindeki `index.html` değiştirilir. Haric
 ## Klinik doğrulama
 
 [İlk 10 aday ürünün araştırma raporu](docs/verification-group-01.md)
+
+[Yeni 10 tanı ve etken madde bilgileri raporu](docs/expansion-group-04.md)
 
 TİTCK 20 Ekim 2026 SKRS dosyası barkodla incelendi. Aktif kayıt, güncel satış/fiyat veya SGK uygunluğu yerine geçmez. Güncel fiyat listesi giriş gerektirdiği için tam ürün doğrulaması bitmedi. Kaynaklarda bulunan tarihli fiyatlar araştırma raporunda ayrıca gösterilir.
 
