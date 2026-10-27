@@ -1,0 +1,322 @@
+{
+  "checkedOn": "2026-10-27",
+  "group": 1,
+  "scope": "10 aday ürün; klinik reçete yayını değildir",
+  "activeListDate": "2026-10-20",
+  "activeListSource": "https://www.titck.gov.tr/dinamikmodul/43",
+  "activeListSha256": "a813594b388a7e329fb3aed40623bc4b71ac798d1b147796bcc0e9a7c1d3810e",
+  "currentPriceSource": "https://www.titck.gov.tr/dinamikmodul/88",
+  "currentPriceAccess": "Giriş sayfasına yönleniyor; güncel listenin içeriği doğrulanamadı.",
+  "items": [
+    {
+      "substance": "Parasetamol",
+      "product": "PAROL 500 mg 20 tablet",
+      "barcode": "8699717010109",
+      "skrs": {
+        "name": "PAROL 500 MG 20 TABLET",
+        "barcode": "8699717010109",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 79.1,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/parol-500-mg-tablet-c682/"
+      },
+      "clinicalSourceLocated": "https://www.ilacrehberi.com/v/parol-500-mg-tablet-c682/kub/",
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "İbuprofen",
+      "product": "DOLVEN 400 mg 20 film tablet",
+      "barcode": "8699809018556",
+      "skrs": {
+        "name": "DOLVEN 400 MG 20 FİLM TABLET",
+        "barcode": "8699809018556",
+        "status": "Pasif",
+        "prescriptionType": "Normal",
+        "sheet": "PASİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": null,
+        "currency": "TRY",
+        "sourceDate": null,
+        "source": "https://www.ilacabak.com/dolven-400-mg-20-film-tablet-16866"
+      },
+      "clinicalSourceLocated": "https://www.eczacibasiilac.com.tr/EIP/media/EIP_Media/DOLVEN-400-MG-KUB.pdf",
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "excluded",
+      "reason": "Resmî SKRS pasif kaydı; güncel satış fiyatı teyit edilemedi.",
+      "verification": {
+        "active": false,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Amoksisilin",
+      "product": "LARGOPEN 1000 mg 16 tablet",
+      "barcode": "8699569010111",
+      "skrs": {
+        "name": "LARGOPEN 1000 MG 16 TABLET",
+        "barcode": "8699569010111",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 223.32,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/ilac-fiyatlari/8699569010111/"
+      },
+      "clinicalSourceLocated": "https://www.ilacrehberi.com/v/largopen-1-g-tablet-90b2/kub/",
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Setirizin",
+      "product": "ZYRTEC 10 mg 20 film tablet",
+      "barcode": "8699624090041",
+      "skrs": {
+        "name": "ZYRTEC 10 MG 20 FILM TABLET",
+        "barcode": "8699624090041",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 152.62,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/zyrtec-10-mgml-oral-damla-99c0/"
+      },
+      "clinicalSourceLocated": null,
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Fosfomisin",
+      "product": "MONUROL 3 g 1 saşe",
+      "barcode": "8699569240266",
+      "skrs": {
+        "name": "MONUROL 3 G GRANUL ICEREN SASE (1 SASE)",
+        "barcode": "8699569240266",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 152.62,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/monurol-3-g-granul-iceren-sase-11199/kub/"
+      },
+      "clinicalSourceLocated": "https://cdn.ilacrehberi.com/monurol-3-g-granul-iceren-sase-11199-kub.pdf",
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Amoksisilin / klavulanik asit",
+      "product": "AMOKLAVİN BID 1000 mg 14 film tablet",
+      "barcode": "8699525093189",
+      "skrs": {
+        "name": "AMOKLAVIN BID 1000 MG 14 FILM TABLET",
+        "barcode": "8699525093189",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 183.14,
+        "currency": "TRY",
+        "sourceDate": null,
+        "source": "https://www.ilacabak.com/amoklavin-bid-1000-mg-14-film-tablet-1793"
+      },
+      "clinicalSourceLocated": null,
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Siprofloksasin, kulak formu",
+      "product": "SİPROGUT %0,3 5 ml kulak damlası",
+      "barcode": "8699569620013",
+      "skrs": {
+        "name": "SIPROGUT %0.3 5 ML KULAK DAMLASI",
+        "barcode": "8699569620013",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 117.16,
+        "currency": "TRY",
+        "sourceDate": "2026-09-21",
+        "source": "https://www.ilacabak.com/siprogut-0-3-kulak-damlasi-cozelti-5-ml-1136"
+      },
+      "clinicalSourceLocated": null,
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Pantoprazol",
+      "product": "PANTPAS 40 mg 14 enterik kaplı tablet",
+      "barcode": "8682758040020",
+      "skrs": {
+        "name": "PANTPAS 40 MG ENTERIK KAPLI TABLET (14 TABLET)",
+        "barcode": "8682758040020",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 136.69,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/ilac-fiyatlari/8682758040020/"
+      },
+      "clinicalSourceLocated": "https://cdn.ilacrehberi.com/pantpas-40-mg-enterik-kapli-tablet-10ca7-kub.pdf",
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Laktüloz",
+      "product": "DUPHALAC 670 mg/ml 300 ml şurup",
+      "barcode": "8699820570217",
+      "skrs": {
+        "name": "DUPHALAC SURUP 670 MG/ML 300 ML",
+        "barcode": "8699820570217",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 417.85,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/ilac-fiyatlari/8699820570217/"
+      },
+      "clinicalSourceLocated": null,
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    },
+    {
+      "substance": "Triamsinolon asetonid, ağız içi form",
+      "product": "KENACORT-A ORABASE %0,1 5 g pomad",
+      "barcode": "8699525416698",
+      "skrs": {
+        "name": "KENACORT-A ORABASE % 0,1 5 GR POMAD",
+        "barcode": "8699525416698",
+        "status": "Aktif",
+        "prescriptionType": "Normal",
+        "sheet": "AKTİF ÜRÜNLER LİSTESİ"
+      },
+      "secondaryPrice": {
+        "amount": 123.58,
+        "currency": "TRY",
+        "sourceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/ilac-fiyatlari/8699525416698/"
+      },
+      "clinicalSourceLocated": null,
+      "checkedOn": "2026-10-27",
+      "publicationStatus": "pending",
+      "reason": "Aktif SKRS kaydı bulundu; güncel fiyat listesi eşleştirmesi, fiilî satış, endikasyona özgü doz/süre/ambalaj ve pratisyen/SUT incelemesi tamamlanmadı.",
+      "verification": {
+        "active": true,
+        "currentPrice": false,
+        "prescriber": false,
+        "dose": false,
+        "duration": false,
+        "pack": false,
+        "alternatives": false
+      }
+    }
+  ]
+}
