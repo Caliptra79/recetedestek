@@ -1,0 +1,864 @@
+{
+  "checkedOn": "2026-10-27",
+  "skrsDate": "2026-10-20",
+  "version": "0.3.0",
+  "clinicalReviewRecorded": false,
+  "currentOfficialPriceVerified": false,
+  "allPrescriberSutConditionsVerified": false,
+  "brands": {
+    "paracetamol": [
+      {
+        "id": "parol",
+        "name": "PAROL 500 mg",
+        "pack": "20 tablet",
+        "size": 20,
+        "unit": "tablet",
+        "barcode": "8699717010109",
+        "price": 79.1,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/parol-500-mg-tablet-c682/",
+        "kub": "paracetamolKub"
+      },
+      {
+        "id": "minoset",
+        "name": "MİNOSET 500 mg",
+        "pack": "20 tablet",
+        "size": 20,
+        "unit": "tablet",
+        "barcode": "8699546015597",
+        "price": 74.86,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/minoset-500-mg-20-tablet-5248",
+        "kub": "minosetKub"
+      }
+    ],
+    "diclofenac": [
+      {
+        "id": "voltaren",
+        "name": "VOLTAREN EMULGEL %1,16",
+        "pack": "50 g jel",
+        "size": 50,
+        "unit": "g",
+        "barcode": "8681291340079",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/voltaren-emulgel-1-50-gr-jel-4712",
+        "kub": "diclofenacKub"
+      },
+      {
+        "id": "diclomec",
+        "name": "DİCLOMEC %1,16",
+        "pack": "50 g jel",
+        "size": 50,
+        "unit": "g",
+        "barcode": "8699514346302",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/diclomec-1-16-jel-50-gram-4178",
+        "kub": "diclomecKub"
+      }
+    ],
+    "clotrimazole": [
+      {
+        "id": "canesten",
+        "name": "CANESTEN %1",
+        "pack": "20 g krem",
+        "size": 20,
+        "unit": "g",
+        "barcode": "8699546350940",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/canesten-20-gr-krem-846",
+        "kub": "clotrimazoleKub"
+      }
+    ],
+    "ketoconazole": [
+      {
+        "id": "ketoral",
+        "name": "KETORAL %2",
+        "pack": "40 g krem",
+        "size": 40,
+        "unit": "g",
+        "barcode": "8699569350026",
+        "price": 229.98,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/ketoral-2-krem-40-g-1080",
+        "kub": "ketoconazoleKub"
+      },
+      {
+        "id": "ketoderm",
+        "name": "KETODERM %2",
+        "pack": "30 g krem",
+        "size": 30,
+        "unit": "g",
+        "barcode": "8699792352019",
+        "price": 182.41,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/ketoderm-2-krem-30-gram-2740",
+        "kub": "ketodermKub"
+      }
+    ],
+    "amoxiclav": [
+      {
+        "id": "augmentin",
+        "name": "AUGMENTİN 875/125 mg",
+        "pack": "14 film tablet",
+        "size": 14,
+        "unit": "tablet",
+        "barcode": "8699522095650",
+        "price": 183.14,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/augmentin-875-mg-125-mg-film-kapli-tablet-14-adet-2960",
+        "kub": "augmentinKub"
+      },
+      {
+        "id": "klamoks",
+        "name": "KLAMOKS BID 1000 mg (875/125 mg)",
+        "pack": "14 film tablet",
+        "size": 14,
+        "unit": "tablet",
+        "barcode": "8699569090694",
+        "price": 183.14,
+        "priceDate": "2026-10-18",
+        "source": "https://www.ilacabak.com/klamoks-bid-1000-mg-14-film-tablet-6976",
+        "kub": "klamoksKub"
+      },
+      {
+        "id": "amoklavin",
+        "name": "AMOKLAVİN BID 1000 mg (875/125 mg)",
+        "pack": "14 film tablet",
+        "size": 14,
+        "unit": "tablet",
+        "barcode": "8699525093189",
+        "price": 183.14,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/amoklavin-bid-1000-mg-14-film-tablet-1793",
+        "kub": "amoklavinKub"
+      }
+    ]
+  },
+  "sources": {
+    "common": {
+      "name": "AWTTC — Common Ailments Service Formulary",
+      "date": "Temmuz 2026 güncellemesi",
+      "url": "https://awttc.nhs.wales/medicines-optimisation-and-safety/medicines-optimisation-guidance-resources-and-data/prescribing-guidance/all-wales-common-ailments-service-formulary/"
+    },
+    "throat": {
+      "name": "NICE NG84 — Akut boğaz ağrısı",
+      "url": "https://www.nice.org.uk/guidance/ng84/chapter/Recommendations"
+    },
+    "sinus": {
+      "name": "NICE NG79 — Akut sinüzit",
+      "url": "https://www.nice.org.uk/guidance/ng79/chapter/Recommendations"
+    },
+    "ear": {
+      "name": "NHS — Kulak enfeksiyonları",
+      "url": "https://www.nhs.uk/conditions/ear-infections/"
+    },
+    "bronchitis": {
+      "name": "NICE NG120 — Akut öksürük ve bronşit",
+      "url": "https://www.nice.org.uk/guidance/ng120/chapter/Recommendations"
+    },
+    "uti": {
+      "name": "NICE NG109 — Alt idrar yolu enfeksiyonu",
+      "url": "https://www.nice.org.uk/guidance/ng109/chapter/Recommendations"
+    },
+    "reflux": {
+      "name": "NICE CG184 — Reflü ve dispepsi",
+      "url": "https://www.nice.org.uk/guidance/cg184/chapter/Recommendations"
+    },
+    "headache": {
+      "name": "NICE CG150 — Baş ağrıları",
+      "url": "https://www.nice.org.uk/guidance/cg150/chapter/recommendations"
+    },
+    "back": {
+      "name": "NICE NG59 — Bel ağrısı",
+      "url": "https://www.nice.org.uk/guidance/ng59/chapter/recommendations"
+    },
+    "sprain": {
+      "name": "NHS — Burkulma ve zorlanmalar",
+      "url": "https://www.nhs.uk/conditions/sprains-and-strains/"
+    },
+    "hives": {
+      "name": "NHS — Ürtiker",
+      "url": "https://www.nhs.uk/conditions/hives/"
+    },
+    "impetigo": {
+      "name": "NICE NG153 — İmpetigo",
+      "url": "https://www.nice.org.uk/guidance/ng153/chapter/Recommendations"
+    },
+    "primary": {
+      "name": "Çakmak, 2020 — İstanbul aile hekimliği başvuru profili",
+      "url": "https://dergipark.org.tr/en/pub/otjhs/article/502133"
+    },
+    "emergency": {
+      "name": "Yüksel, 2020 — Erişkin acil başvuru profili",
+      "url": "https://dergipark.org.tr/en/pub/anatolianjem/article/722784"
+    },
+    "active": {
+      "name": "TİTCK — SKRS E-Reçete İlaç ve Diğer Farmasötik Ürünler Listesi",
+      "date": "20 Ekim 2026",
+      "url": "https://www.titck.gov.tr/dinamikmodul/43"
+    },
+    "oa": {
+      "name": "NICE NG226 — Osteoartrit, bölüm 1.4",
+      "url": "https://www.nice.org.uk/guidance/NG226/chapter/recommendations"
+    },
+    "elbow": {
+      "name": "Royal Orthopaedic Hospital — Lateral epikondilit",
+      "url": "https://roh.nhs.uk/services-information/therapy/tennis-elbow"
+    },
+    "bursitis": {
+      "name": "NHS — Bursit",
+      "url": "https://www.nhs.uk/conditions/bursitis/"
+    },
+    "neck": {
+      "name": "NHS — Boyun ağrısı",
+      "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/"
+    },
+    "diclofenacKub": {
+      "name": "Topikal diklofenak %1,16 — KÜB, 4.1–4.6",
+      "date": "27 Ekim 2026 tarihinde incelendi",
+      "url": "https://cdn.ilacrehberi.com/voltaren-emulgel-116-jel-1108d-kub.pdf"
+    },
+    "clotrimazoleKub": {
+      "name": "Klotrimazol %1 krem — KÜB, 4.1–4.6",
+      "date": "27 Ekim 2026 tarihinde incelendi",
+      "url": "https://cdn.ilacrehberi.com/canesten-krem-8a07-kub.pdf"
+    },
+    "ketoconazoleKub": {
+      "name": "Ketokonazol %2 krem — KÜB, 4.1–4.6",
+      "date": "27 Ekim 2026 tarihinde incelendi",
+      "url": "https://www.ilacrehberi.com/v/ketoral-deri-kremi-9003/kub/"
+    },
+    "paracetamolKub": {
+      "name": "Parasetamol 500 mg tablet — KÜB, 4.1–4.6",
+      "date": "27 Ekim 2026 tarihinde incelendi",
+      "url": "https://www.ilacrehberi.com/v/parol-500-mg-tablet-c682/kub/"
+    },
+    "minosetKub": {
+      "name": "MİNOSET 500 mg — KÜB",
+      "url": "https://www.ilacrehberi.com/v/minoset-500-mg-tablet-a29f/kub/",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "diclomecKub": {
+      "name": "DİCLOMEC %1,16 — üretici KÜB",
+      "url": "https://www.abdiibrahim.com.tr/Uploads/New%20Folder%282%29/diclomec-116-jel.pdf",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "ketodermKub": {
+      "name": "KETODERM %2 — üretici KÜB",
+      "url": "https://terrailac.com.tr/dosya/ketoderm-krem-ku%CC%88bpdf.pdf",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "augmentinKub": {
+      "name": "AUGMENTİN 875/125 mg — KÜB",
+      "url": "https://www.prospektus.co/ilaclar/augmentin-875-mg-125-mg-film-kapli-tablet/kisa-urun-bilgisi",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "klamoksKub": {
+      "name": "KLAMOKS BID 1000 mg — KÜB",
+      "url": "https://www.ilacrehberi.com/v/klamoks-bid-1000-mg-film-kapl-tablet-b11e/kub/",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "amoklavinKub": {
+      "name": "AMOKLAVİN BID 1000 mg — KÜB",
+      "url": "https://www.ilacrehberi.com/v/amoklavinbid-1000-mg-film-tablet-a3c5/kub/",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "idsaSinus": {
+      "name": "IDSA — erişkin bakteriyel rinosinüzit",
+      "url": "https://academic.oup.com/cid/article/54/8/e72/367144?login=false",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "cdcSinus": {
+      "name": "CDC — erişkin ayaktan antibiyotik yaklaşımı",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "nhsParacetamol": {
+      "name": "NHS — erişkinde parasetamol",
+      "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    },
+    "headache2025": {
+      "name": "NICE CG150 — 2025 sürümü",
+      "url": "https://www.nice.org.uk/guidance/cg150/chapter/recommendations",
+      "date": "27 Ekim 2026 tarihinde incelendi"
+    }
+  },
+  "diagnoses": [
+    {
+      "id": "nezle",
+      "title": "Akut Nazofarenjit",
+      "sampleOptions": [
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "nhsParacetamol"
+          ],
+          "condition": "Yalnız ağrı/ateş varsa. Viral tabloda antibiyotik eklenmez; solunum sıkıntısı, uzayan/yüksek ateş veya kötüleşme yeniden değerlendirilir.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "viral-farenjit",
+      "title": "Viral Farenjit",
+      "sampleOptions": [
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "throat"
+          ],
+          "condition": "Viral etiyoloji değerlendirilmiş olgu. Yutamama, trismus, tek taraflı şişlik veya solunum sorunu bu örneğin dışındadır; antibiyotik rutin değildir.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tonsillofarenjit",
+      "title": "Streptokokal Tonsillofarenjit",
+      "sampleOptions": []
+    },
+    {
+      "id": "sinuzit",
+      "title": "Akut Sinüzit",
+      "sampleOptions": [
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "sinus"
+          ],
+          "condition": "Viral veya bakteriyel ayrımından bağımsız, yalnız ağrı/ateş kontrolü.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        },
+        {
+          "agent": "amoxiclav",
+          "duration": "5 gün; 10 tablet toplam",
+          "role": "Bakteriyel olguda koşullu antibiyotik",
+          "sources": [
+            "idsaSinus",
+            "cdcSinus"
+          ],
+          "condition": "Yalnız hekimce bakteriyel sinüzit ve antibiyotik gereği saptanmış, komplikasyonsuz, direnç riski düşük erişkin için. ≥10 gün düzelmeme, belirgin ilk kötüleşme veya ≥39°C ateşle pürülan akıntı/yüz ağrısının 3–4 gün sürmesi değerlendirilir. İzlem mümkünse antibiyotiksiz takip seçeneği de vardır. Orbital/nörolojik bulgular, immünsüpresyon, yakın zamanda antibiyotik kullanımı veya ağır tablo kapsam dışıdır.",
+          "quantity": {
+            "total": 10,
+            "unit": "tablet",
+            "note": "Günde 2 tablet × 5 gün. 14 tabletlik kutudaki artan tabletler tedaviyi uzatmak için kullanılmaz."
+          }
+        }
+      ]
+    },
+    {
+      "id": "otitis-media",
+      "title": "Akut Otitis Media",
+      "sampleOptions": []
+    },
+    {
+      "id": "otitis-eksterna",
+      "title": "Akut Otitis Eksterna",
+      "sampleOptions": []
+    },
+    {
+      "id": "bronsit",
+      "title": "Komplikasyonsuz Akut Bronşit",
+      "sampleOptions": [
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "bronchitis"
+          ],
+          "condition": "Yalnız ağrı/ateş için; öksürüğü tedavi etmez. Pnömoni ve sistemik ağır hastalık dışlanır. Komplikasyonsuz akut bronşitte rutin antibiyotik verilmez.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alerjik-rinit",
+      "title": "Alerjik Rinit",
+      "sampleOptions": []
+    },
+    {
+      "id": "sistit",
+      "title": "Komplikasyonsuz Sistit",
+      "sampleOptions": []
+    },
+    {
+      "id": "gastroenterit",
+      "title": "Akut Gastroenterit",
+      "sampleOptions": []
+    },
+    {
+      "id": "reflu",
+      "title": "Gastroözofageal Reflü",
+      "sampleOptions": []
+    },
+    {
+      "id": "dispepsi",
+      "title": "Dispepsi",
+      "sampleOptions": []
+    },
+    {
+      "id": "kabizlik",
+      "title": "Kabızlık",
+      "sampleOptions": []
+    },
+    {
+      "id": "hemoroid",
+      "title": "Komplikasyonsuz Hemoroid",
+      "sampleOptions": []
+    },
+    {
+      "id": "aft",
+      "title": "Basit Aft",
+      "sampleOptions": []
+    },
+    {
+      "id": "gerilim-bas-agrisi",
+      "title": "Gerilim Tipi Baş Ağrısı",
+      "sampleOptions": [
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "headache2025"
+          ],
+          "condition": "Tanısı bilinen atak. Ani en şiddetli ağrı, nörolojik bulgu veya ateş/ense sertliği bu örneğin dışındadır. Sık analjezik kullanımında ilaç aşırı kullanım baş ağrısı değerlendirilir.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "migren",
+      "title": "Tanısı Bilinen Migren Atağı",
+      "sampleOptions": [
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "headache2025"
+          ],
+          "condition": "Bilinen migren atağında tek ilaç yaklaşımı tercih edilmişse değerlendirilebilir. Uzayan/şiddetli, yeni veya farklı atak yeniden değerlendirilir; koruyucu tedavi değildir.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "miyalji",
+      "title": "Miyalji",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "İlk değerlendirme 7 gün içinde. Yumuşak doku olgusunda hekim önerisi olmadan 14 günü geçmez.",
+          "role": "Lokal ağrı için topikal seçenek",
+          "sources": [
+            "sprain"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "nhsParacetamol"
+          ],
+          "condition": "Sistemik enfeksiyon, rabdomiyoliz ve ilaç kaynaklı nedenler dışlanmış basit kas ağrısı.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bel-agrisi",
+      "title": "Mekanik Bel Ağrısı",
+      "sampleOptions": []
+    },
+    {
+      "id": "burkulma",
+      "title": "Basit Burkulma ve Zorlanma",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "İlk değerlendirme 7 gün içinde. Yumuşak doku olgusunda hekim önerisi olmadan 14 günü geçmez.",
+          "role": "Lokal ağrı için topikal seçenek",
+          "sources": [
+            "sprain"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+          "role": "Ağrı / ateş için semptomatik seçenek",
+          "sources": [
+            "sprain"
+          ],
+          "condition": "Kırık, nörovasküler hasar ve ciddi bağ yaralanması dışlanmış olgu. Koruma ve uygun yük verme yaklaşımına ek semptom kontrolü.",
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "urtiker",
+      "title": "Akut Ürtiker",
+      "sampleOptions": []
+    },
+    {
+      "id": "kontakt-dermatit",
+      "title": "Kontakt Dermatit",
+      "sampleOptions": []
+    },
+    {
+      "id": "atopik-dermatit",
+      "title": "Hafif Atopik Dermatit",
+      "sampleOptions": []
+    },
+    {
+      "id": "tinea-pedis",
+      "title": "Tinea Pedis",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "3–4 hafta",
+          "role": "Sınırlı ayak dermatofit enfeksiyonu",
+          "sources": [],
+          "condition": "Tırnak tutulumu, yaygın enfeksiyon ve diyabetik ayak bu örneğin dışındadır.",
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    },
+    {
+      "id": "tinea-corporis",
+      "title": "Tinea Corporis",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "3–4 hafta",
+          "role": "Sınırlı cilt formu",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "ketoconazole",
+          "duration": "3–4 hafta",
+          "role": "Alternatif cilt formu",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    },
+    {
+      "id": "uyuz",
+      "title": "Uyuz",
+      "sampleOptions": []
+    },
+    {
+      "id": "impetigo",
+      "title": "Sınırlı İmpetigo",
+      "sampleOptions": []
+    },
+    {
+      "id": "herpes-labialis",
+      "title": "Herpes Labialis",
+      "sampleOptions": []
+    },
+    {
+      "id": "konjonktivit",
+      "title": "Komplikasyonsuz Bakteriyel Konjonktivit",
+      "sampleOptions": []
+    },
+    {
+      "id": "kuru-goz",
+      "title": "Kuru Göz",
+      "sampleOptions": []
+    },
+    {
+      "id": "diz-osteoartriti",
+      "title": "Diz Osteoartriti",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "Artrit ağrısı için KÜB sınırı 21 gün; 7 günde yanıt değerlendirilir.",
+          "role": "Topikal seçenek",
+          "sources": [
+            "oa"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Hekim değerlendirmesi olmadan en çok 3 ardışık gün.",
+          "role": "Koşullu alternatif",
+          "condition": "Osteoartritte rutin önerilmez; diğer farmakolojik seçenekler uygun değilse, tolere edilemiyorsa veya etkisizse yalnız seyrek ve kısa süreli kullanım değerlendirilir.",
+          "sources": [
+            "oa"
+          ],
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "el-osteoartriti",
+      "title": "El Osteoartriti",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "Artrit ağrısı için KÜB sınırı 21 gün; 7 günde yanıt değerlendirilir.",
+          "role": "Topikal seçenek",
+          "sources": [
+            "oa"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Hekim değerlendirmesi olmadan en çok 3 ardışık gün.",
+          "role": "Koşullu alternatif",
+          "condition": "Osteoartritte rutin önerilmez; diğer farmakolojik seçenekler uygun değilse, tolere edilemiyorsa veya etkisizse yalnız seyrek ve kısa süreli kullanım değerlendirilir.",
+          "sources": [
+            "oa"
+          ],
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lateral-epikondilit",
+      "title": "Lateral Epikondilit",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "Yumuşak doku romatizmasında KÜB sınırı 14 gün; 7 günde yanıt değerlendirilir.",
+          "role": "Lokal ağrı kontrolü",
+          "condition": "Yük ve aktivite düzenleme ile egzersiz yaklaşımının yerine geçmez.",
+          "sources": [
+            "elbow"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Hekim değerlendirmesi olmadan en çok 3 ardışık gün.",
+          "role": "Ağrı kontrolünde alternatif",
+          "sources": [
+            "elbow"
+          ],
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aseptik-bursit",
+      "title": "Lokalize Aseptik Bursit",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "Yumuşak doku romatizmasında KÜB sınırı 14 gün; 7 günde yanıt değerlendirilir.",
+          "role": "Lokal seçenek",
+          "condition": "Yalnız muayeneyle enfeksiyon dışlanmış lokalize olgu içindir.",
+          "sources": [
+            "bursitis"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Hekim değerlendirmesi olmadan en çok 3 ardışık gün.",
+          "role": "Ağrı kontrolünde alternatif",
+          "sources": [
+            "bursitis"
+          ],
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "servikal-zorlanma",
+      "title": "Akut Servikal Zorlanma",
+      "sampleOptions": [
+        {
+          "agent": "diclofenac",
+          "duration": "Yumuşak doku zorlanmasında KÜB sınırı 14 gün; 7 günde yanıt değerlendirilir.",
+          "role": "Lokal seçenek",
+          "condition": "Travma ve nörolojik nedenler değerlendirilmiş olmalıdır.",
+          "sources": [
+            "neck"
+          ],
+          "quantityNote": "Kutu adedi uygulama alanına, her uygulamadaki gramaja ve seçilen süreye göre hekimce belirlenir; 50 g tüpün tam kür için yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "paracetamol",
+          "duration": "Hekim değerlendirmesi olmadan en çok 3 ardışık gün.",
+          "role": "Ağrı kontrolünde alternatif",
+          "sources": [
+            "neck"
+          ],
+          "dose": "500–1000 mg (1–2 tablet)",
+          "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+          "quantity": {
+            "total": 18,
+            "unit": "tablet",
+            "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tinea-cruris",
+      "title": "Tinea Cruris",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "Dermatomikozlar için kaynak aralığı 3–4 hafta.",
+          "role": "Cilt formu",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    },
+    {
+      "id": "tinea-manuum",
+      "title": "Tinea Manuum",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "Dermatomikozlar için kaynak aralığı 3–4 hafta.",
+          "role": "Cilt formu",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    },
+    {
+      "id": "pityriasis-versicolor",
+      "title": "Pityriasis Versicolor",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "Pityriasis versicolor için kaynak aralığı 1–3 hafta.",
+          "role": "Bir seçenek",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        },
+        {
+          "agent": "ketoconazole",
+          "duration": "Pityriasis versicolor için kaynak aralığı 2–3 hafta.",
+          "role": "Alternatif cilt formu",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    },
+    {
+      "id": "kutanoz-kandidiyazis",
+      "title": "Kutanöz Kandidiyazis",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "Kutanöz dermatomikoz için kaynak aralığı 3–4 hafta.",
+          "role": "Cilt formu",
+          "condition": "Vulvovajinal, oral veya sistemik kandidiyazis için kullanılacak bir şema değildir.",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    },
+    {
+      "id": "eritrazma",
+      "title": "Eritrazma",
+      "sampleOptions": [
+        {
+          "agent": "clotrimazole",
+          "duration": "Eritrazma için kaynak aralığı 2–4 hafta.",
+          "role": "KÜB’de endikasyonu bulunan cilt formu",
+          "condition": "Eritrazma tanısı doğrulanmış olmalıdır; her kasık döküntüsü mantar değildir.",
+          "sources": [],
+          "quantityNote": "Tüp adedi lezyon alanına ve süreye göre hekimce belirlenir; bir tüpün tüm tedaviye yeterli olduğu varsayılmaz."
+        }
+      ]
+    }
+  ]
+}

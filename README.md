@@ -1,38 +1,21 @@
 # Reçete Destek
 
-Pratisyen ve aile hekimleri için tek dosyalık karar destek uygulaması.
+Yalnızca hekimler için, acil taburculuk odaklı tek dosyalık örnek reçete karar desteği.
 
-**Durum: 0.2.0-preview — geliştirme önizlemesi. Klinik kullanım için hazır değildir.**
+[Uygulamayı aç](https://caliptra79.github.io/recetedestek/)
 
-40 tanı listelenir. Yeni 10 tanıda 4 etken maddeye dayanan 16 kaynaklı kullanım seçeneği bulunur. Bu bilgiler hazır reçete değildir; yayımlanmış tam doğrulanmış reçete sayısı sıfırdır. Ticari ürün, güncel satış/fiyat, kutu hesabı ve pratisyen/SUT koşulları tamamlanmadan marka veya tam reçete açılmaz.
+Sürüm 0.3.0: 40 tanı; 20 tanıda 30 örnek seçenek ve beş etken madde grubunda 10 ticari ürün. Her etken maddede en fazla üç piyasa adı bulunur. Bunlar bağımsız klinik onay veya SGK geri ödeme garantisi değildir. Kaynak ve kontrol kapsamı uygulamanın Hakkında bölümünde açıklanır; tam doğrulama işareti kullanılmaz.
 
-## Kullanım
+- Bölümler ve hasta durumları ayrı seçim pencerelerinde açılır; yatay kategori şeridi kaldırılmıştır.
+- Hasta durumuna göre kaynaklı uyarılar ve standart doz gizleme; otomatik bireysel uygunluk verilmez.
+- Marka seçimi form/ambalajı gösterir. Tablet kutu hesabı örnekteki toplam miktara dayanır. Krem/jel tüp adedi uygulama alanına göre hekimce belirlenir.
+- Arama/filtre/konum korunur. Notlar, hasta durumu ve marka seçimleri yalnız sayfa belleğindedir; görünüm ayarları yerel depolamaya yazılır.
+- Raporlu kronik tedavi yenileme bölümü kaldırılmıştır. PWA dosyası üretilmez.
 
-[GitHub Pages önizlemesi](https://caliptra79.github.io/recetedestek/)
+[Ürün, tanı, kaynak ve kalan iş raporu](docs/sample-recipes-0.3.0.md) · [Denetim verisi](docs/sample-recipes-0.3.0.json)
 
-Uygulamayı güncellemek için kök dizindeki `index.html` değiştirilir. Harici bağımlılık veya derleme gerekmez. Pages kaynağı `main` dalı, `/ (root)` dizinidir. `NOTICE.md` ve `docs/` yalnızca belgelerdir; çalışma zamanında yüklenmez.
+Çalışan uygulama yalnız index.html dosyasıdır. Harici bağımlılık, derleme, font/CDN, analitik veya veri servisi yoktur. GitHub Pages main / kök dizinden yayımlar. Belge ve testler çalışma zamanında yüklenmez. Kontrol: node tests/check-release.cjs.
 
-## Hazır arayüz işlevleri
+Telif sahibi ve lisans türü kullanıcı tarafından belirlenecektir.
 
-- Türkçe karakter ve küçük yazım hatalarına toleranslı tanı araması, bölüm seçimi ve filtreler.
-- Tanıdan geri dönüşte arama, filtre ve liste konumunu koruma.
-- Hasta durumu seçimleri; yeni etken madde bilgilerinde kaynağa bağlı uyarılar ve gerekli durumlarda standart dozu gizleme. Otomatik uygunluk veya kişisel doz hesabı yapılmaz.
-- Tanı bağlantısını paylaşma; yalnızca açık oturumda tutulan kişisel notlar. Reçete kopyalama düğmesi yoktur.
-- Açık, koyu ve saf siyah tema; renk paleti, yazı boyutu/stili, renk körlüğü modu ve liste yoğunluğu.
-- Ayrı raporlu ilaç yenileme bölümü, Hakkında, gizlilik ve telif bildirimleri.
-
-## Klinik doğrulama
-
-[İlk 10 aday ürünün araştırma raporu](docs/verification-group-01.md)
-
-[Yeni 10 tanı ve etken madde bilgileri raporu](docs/expansion-group-04.md)
-
-TİTCK 20 Ekim 2026 SKRS dosyası barkodla incelendi. Aktif kayıt, güncel satış/fiyat veya SGK uygunluğu yerine geçmez. Güncel fiyat listesi giriş gerektirdiği için tam ürün doğrulaması bitmedi. Kaynaklarda bulunan tarihli fiyatlar araştırma raporunda ayrıca gösterilir.
-
-## Gizlilik ve lisans
-
-Uygulama kodu veri toplamaz ve dışarı veri göndermez. Görünüm ayarları yerel depolamada, notlar ve hasta durumu açık sayfanın belleğinde tutulur. Hasta bilgisi girilmemelidir. GitHub Pages'in kendi teknik erişim kayıtları ayrı bir konudur.
-
-Telif sahibi ve lisans türü kullanıcı tarafından belirlenecektir. Üçüncü taraf kod/font/görsel paketi kullanılmaz. PWA dosyası oluşturulmamıştır.
-
-Yalnızca hekimler içindir. **Karar destek aracıdır, son karar hekime aittir.**
+**Karar destek aracıdır, son karar hekime aittir.**
