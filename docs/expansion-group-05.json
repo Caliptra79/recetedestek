@@ -1,0 +1,847 @@
+{
+  "version": "0.5.0",
+  "checkedOn": "2026-10-28",
+  "diagnoses": [
+    {
+      "id": "primer-dismenore",
+      "title": "Primer Dismenore",
+      "category": "gyn",
+      "description": "Sekonder nedenler dışlanmış adet sancısı",
+      "sources": [
+        "period05"
+      ],
+      "keywords": "adet sancisi regl agrisi primer dismenore",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "pulpit-dis-agrisi",
+      "title": "Pulpit Kaynaklı Diş Ağrısı",
+      "category": "dental",
+      "description": "Diş tedavisine kadar geçici ağrı kontrolü",
+      "sources": [
+        "dental05"
+      ],
+      "keywords": "dis agrisi pulpit odontojenik curuk",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "kostokondrit",
+      "title": "Kostokondrit",
+      "category": "msk",
+      "description": "Ciddi nedenler dışlanmış göğüs duvarı ağrısı",
+      "sources": [
+        "chest05"
+      ],
+      "keywords": "kostokondrit gogus duvari kaburga agrisi",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "rotator-manset",
+      "title": "Rotator Manşet Tendinopatisi",
+      "category": "msk",
+      "description": "Travmatik yırtık dışlanmış omuz ağrısı",
+      "sources": [
+        "shoulder05"
+      ],
+      "keywords": "omuz agrisi rotator manset tendon sikisma",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "de-quervain",
+      "title": "De Quervain Tenosinoviti",
+      "category": "msk",
+      "description": "El bileği başparmak tarafında tendon kılıfı ağrısı",
+      "sources": [
+        "wrist05"
+      ],
+      "keywords": "de quervain tenosinovit el bilegi basparmak agrisi",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "plantar-fasiit",
+      "title": "Plantar Fasiit",
+      "category": "msk",
+      "description": "Komplikasyonsuz mekanik topuk ağrısı",
+      "sources": [
+        "heel05"
+      ],
+      "keywords": "plantar fasiit fasiyit topuk agrisi taban",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "bocek-reaksiyonu",
+      "title": "Lokal Böcek Sokması Reaksiyonu",
+      "category": "skin",
+      "description": "Anafilaksi ve enfeksiyon dışlanmış lokal reaksiyon",
+      "sources": [
+        "bite05"
+      ],
+      "keywords": "bocek isirigi sokmasi ari sivrisinek lokal kasinti",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "hafif-gunes-yanigi",
+      "title": "Hafif Güneş Yanığı",
+      "category": "skin",
+      "description": "Bülsüz ve sınırlı yüzeyel güneş yanığı",
+      "sources": [
+        "sun05"
+      ],
+      "keywords": "gunes yanigi birinci derece yuzeyel eritem",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "seboreik-dermatit",
+      "title": "Seboreik Dermatit",
+      "category": "skin",
+      "description": "Erişkinde sınırlı cilt tutulumu",
+      "sources": [
+        "seb05"
+      ],
+      "keywords": "seboreik sebore egzama yagli pullanma kepek",
+      "batch": 5,
+      "prescriptions": []
+    },
+    {
+      "id": "bakteriyel-folikulit",
+      "title": "Sınırlı Bakteriyel Folikülit",
+      "category": "skin",
+      "description": "Yüzeyel stafilokokal kıl kökü enfeksiyonu",
+      "sources": [
+        "follicle05"
+      ],
+      "keywords": "folikulit kil koku iltihabi yuzeyel pustul",
+      "batch": 5,
+      "prescriptions": []
+    }
+  ],
+  "plans": {
+    "primer-dismenore": [
+      {
+        "agent": "naproxen",
+        "duration": "Gerektiğinde en çok 3 günlük kısa örnek; sonra yeniden değerlendirme",
+        "role": "Koşullu kısa süreli oral NSAİİ seçeneği",
+        "condition": "Gebe olmayan erişkinde tanısı primer dismenoreyle uyumlu, olağan adet dönemi ağrısı. Gebelik olasılığı, gecikmiş adet, yeni/tek taraflı şiddetli pelvik ağrı, ateş, senkop veya aşırı kanama bu örneğin dışındadır. Isı uygulaması ve tolere edilen hafif aktivite destek olabilir. Yeni başlayan veya giderek artan ağrıda sekonder neden araştırılır. Oral NSAİİ yalnız gastrointestinal, kardiyovasküler ve renal riskler ile etkileşimler değerlendirildikten sonra seçilir.",
+        "sources": [
+          "period05"
+        ],
+        "quantity": {
+          "total": 6,
+          "unit": "tablet",
+          "note": "En çok 2 tablet/gün × 3 gün = 6 tablet; 10 tabletlik 1 kutu."
+        }
+      },
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Kısa süreli ağrı kontrolünde ayrı seçenek",
+        "sources": [
+          "period05"
+        ],
+        "condition": "Gebe olmayan erişkinde tanısı primer dismenoreyle uyumlu, olağan adet dönemi ağrısı. Gebelik olasılığı, gecikmiş adet, yeni/tek taraflı şiddetli pelvik ağrı, ateş, senkop veya aşırı kanama bu örneğin dışındadır. Isı uygulaması ve tolere edilen hafif aktivite destek olabilir. Yeni başlayan veya giderek artan ağrıda sekonder neden araştırılır. Oral parasetamol örneği en az 50 kg erişkin içindir; günlük toplam en çok 3 g.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "pulpit-dis-agrisi": [
+      {
+        "agent": "naproxen",
+        "duration": "Gerektiğinde en çok 3 günlük kısa örnek; sonra yeniden değerlendirme",
+        "role": "Koşullu kısa süreli oral NSAİİ seçeneği",
+        "condition": "Yüz/boğaz şişliği, trismus, disfaji, solunum sorunu, ateş ve sistemik yayılım dışlanmış erişkin. Analjezi yalnız diş hekimi tedavisine kadar geçicidir; kanal tedavisi/çekim gereğini ortadan kaldırmaz. Basit pulpit ağrısında rutin antibiyotik verilmez. Önceden alınan ağrı kesicilerin toplamı sorgulanır. Oral NSAİİ yalnız gastrointestinal, kardiyovasküler ve renal riskler ile etkileşimler değerlendirildikten sonra seçilir. Bu kartta diş ağrısı endikasyonu KÜB’de açıkça bulunan APRANAX seçeneği gösterilir.",
+        "sources": [
+          "dental05",
+          "dentalSafety05"
+        ],
+        "quantity": {
+          "total": 6,
+          "unit": "tablet",
+          "note": "En çok 2 tablet/gün × 3 gün = 6 tablet; 10 tabletlik 1 kutu."
+        },
+        "brandIds": [
+          "apranax"
+        ]
+      },
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Kısa süreli ağrı kontrolünde ayrı seçenek",
+        "sources": [
+          "dental05",
+          "dentalSafety05"
+        ],
+        "condition": "Yüz/boğaz şişliği, trismus, disfaji, solunum sorunu, ateş ve sistemik yayılım dışlanmış erişkin. Analjezi yalnız diş hekimi tedavisine kadar geçicidir; kanal tedavisi/çekim gereğini ortadan kaldırmaz. Basit pulpit ağrısında rutin antibiyotik verilmez. Önceden alınan ağrı kesicilerin toplamı sorgulanır. Oral parasetamol örneği en az 50 kg erişkin içindir; günlük toplam en çok 3 g.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "kostokondrit": [
+      {
+        "agent": "naproxen",
+        "duration": "Gerektiğinde en çok 3 günlük kısa örnek; sonra yeniden değerlendirme",
+        "role": "Koşullu kısa süreli oral NSAİİ seçeneği",
+        "condition": "AKS, pulmoner emboli, aort patolojisi, pnömotoraks ve diğer ciddi göğüs ağrısı nedenleri hekim değerlendirmesiyle dışlanmış olgu. Palpasyonla ağrı tek başına bu dışlamayı sağlamaz. Yeni/baskı tarzında veya kola/çeneye yayılan ağrı, dispne, terleme ya da senkopta yeniden acil değerlendirme gerekir. Oral NSAİİ yalnız gastrointestinal, kardiyovasküler ve renal riskler ile etkileşimler değerlendirildikten sonra seçilir.",
+        "sources": [
+          "chest05"
+        ],
+        "quantity": {
+          "total": 6,
+          "unit": "tablet",
+          "note": "En çok 2 tablet/gün × 3 gün = 6 tablet; 10 tabletlik 1 kutu."
+        }
+      },
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Kısa süreli ağrı kontrolünde ayrı seçenek",
+        "sources": [
+          "chest05"
+        ],
+        "condition": "AKS, pulmoner emboli, aort patolojisi, pnömotoraks ve diğer ciddi göğüs ağrısı nedenleri hekim değerlendirmesiyle dışlanmış olgu. Palpasyonla ağrı tek başına bu dışlamayı sağlamaz. Yeni/baskı tarzında veya kola/çeneye yayılan ağrı, dispne, terleme ya da senkopta yeniden acil değerlendirme gerekir. Oral parasetamol örneği en az 50 kg erişkin içindir; günlük toplam en çok 3 g.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "rotator-manset": [
+      {
+        "agent": "naproxen",
+        "duration": "Gerektiğinde en çok 3 günlük kısa örnek; sonra yeniden değerlendirme",
+        "role": "Koşullu kısa süreli oral NSAİİ seçeneği",
+        "condition": "Travma, akut tam kat yırtık, çıkık/kırık, enfeksiyon ve belirgin nörolojik bulgu dışlanmış erişkin. Ağrıyı artıran yük düzenlenir; kişiye uygun aktif egzersiz/fizyoterapi planı temel yaklaşımdır. İlaç tendon onarımının yerine geçmez. Yeni güç kaybı veya kolu kaldıramama yeniden muayene gerektirir. Oral NSAİİ yalnız gastrointestinal, kardiyovasküler ve renal riskler ile etkileşimler değerlendirildikten sonra seçilir.",
+        "sources": [
+          "shoulder05"
+        ],
+        "quantity": {
+          "total": 6,
+          "unit": "tablet",
+          "note": "En çok 2 tablet/gün × 3 gün = 6 tablet; 10 tabletlik 1 kutu."
+        }
+      },
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Kısa süreli ağrı kontrolünde ayrı seçenek",
+        "sources": [
+          "shoulder05"
+        ],
+        "condition": "Travma, akut tam kat yırtık, çıkık/kırık, enfeksiyon ve belirgin nörolojik bulgu dışlanmış erişkin. Ağrıyı artıran yük düzenlenir; kişiye uygun aktif egzersiz/fizyoterapi planı temel yaklaşımdır. İlaç tendon onarımının yerine geçmez. Yeni güç kaybı veya kolu kaldıramama yeniden muayene gerektirir. Oral parasetamol örneği en az 50 kg erişkin içindir; günlük toplam en çok 3 g.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "plantar-fasiit": [
+      {
+        "agent": "naproxen",
+        "duration": "Gerektiğinde en çok 3 günlük kısa örnek; sonra yeniden değerlendirme",
+        "role": "Koşullu kısa süreli oral NSAİİ seçeneği",
+        "condition": "Muayeneyle mekanik plantar topuk ağrısı düşünülmüş erişkin; kırık, enfeksiyon, akut travma ve nörolojik neden dışlanır. Yük düzenleme, destekli ayakkabı ve plantar fasya/baldır germe önemlidir. İlaç kısa süreli ağrı kontrolüdür; hastalığı ortadan kaldıran sabit kür değildir. Oral NSAİİ yalnız gastrointestinal, kardiyovasküler ve renal riskler ile etkileşimler değerlendirildikten sonra seçilir.",
+        "sources": [
+          "heel05"
+        ],
+        "quantity": {
+          "total": 6,
+          "unit": "tablet",
+          "note": "En çok 2 tablet/gün × 3 gün = 6 tablet; 10 tabletlik 1 kutu."
+        }
+      },
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Kısa süreli ağrı kontrolünde ayrı seçenek",
+        "sources": [
+          "heel05"
+        ],
+        "condition": "Muayeneyle mekanik plantar topuk ağrısı düşünülmüş erişkin; kırık, enfeksiyon, akut travma ve nörolojik neden dışlanır. Yük düzenleme, destekli ayakkabı ve plantar fasya/baldır germe önemlidir. İlaç kısa süreli ağrı kontrolüdür; hastalığı ortadan kaldıran sabit kür değildir. Oral parasetamol örneği en az 50 kg erişkin içindir; günlük toplam en çok 3 g.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "de-quervain": [
+      {
+        "agent": "diclofenac",
+        "duration": "İlk değerlendirme 7 gün içinde. Yumuşak doku olgusunda hekim önerisi olmadan 14 günü geçmez.",
+        "role": "Sınırlı tendon ağrısında topikal seçenek",
+        "sources": [
+          "wrist05"
+        ],
+        "quantityNote": "Tüp adedi uygulama alanına ve süreye göre hekimce belirlenir; bir tüpün bütün tedaviye yeteceği varsayılmaz.",
+        "condition": "Muayeneyle tanı doğrulanmış erişkin; kırık, enfeksiyon ve nörovasküler sorun dışlanır. Tekrarlayan kavrama/bükme yükü azaltılır; uygun atel ve el terapisi değerlendirilir. Uyuşma, belirgin şişlik veya kalıcı fonksiyon kaybında kontrol gerekir."
+      },
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Ayrı oral semptom kontrolü seçeneği",
+        "sources": [
+          "wrist05"
+        ],
+        "condition": "Muayeneyle tanı doğrulanmış erişkin; kırık, enfeksiyon ve nörovasküler sorun dışlanır. Tekrarlayan kavrama/bükme yükü azaltılır; uygun atel ve el terapisi değerlendirilir. Uyuşma, belirgin şişlik veya kalıcı fonksiyon kaybında kontrol gerekir. En az 50 kg erişkin için kısa süreli ağrı kontrolü.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "bocek-reaksiyonu": [
+      {
+        "agent": "hydrocortisone",
+        "duration": "Gerektiğinde en çok 7 günlük kısa örnek; düzelmeme/kötüleşmede daha erken kontrol",
+        "role": "Belirgin lokal inflamasyonda kısa topikal seçenek",
+        "condition": "Yalnız sağlam deride sınırlı kaşıntı/şişlik. Anafilaksi, dil/boğaz şişliği, dispne, ağız/göz çevresi sokması, kene ilişkili hastalık şüphesi veya enfeksiyon bu örneğin dışındadır. Bölge temizlenir, soğuk kompres uygulanabilir; kaşımaktan kaçınılır. Yüz/genital bölge, açık yara ve enfekte cilde uygulanmaz.",
+        "sources": [
+          "bite05",
+          "hydro05"
+        ],
+        "quantityNote": "Tüp adedi uygulama alanına ve süreye göre hekimce belirlenir; bir tüpün bütün tedaviye yeteceği varsayılmaz."
+      }
+    ],
+    "hafif-gunes-yanigi": [
+      {
+        "agent": "paracetamol",
+        "duration": "Gerektiğinde, en çok 3 ardışık gün; devam eden yakınmada yeniden değerlendirme.",
+        "role": "Yalnız ağrı varsa oral semptom kontrolü",
+        "sources": [
+          "sun05"
+        ],
+        "condition": "Bülsüz, sınırlı yüzeyel yanıkta yalnız ağrı varsa, en az 50 kg erişkin için. Güneşten uzaklaşma, serin suyla soğutma, parfümsüz nemlendirme ve kişiye uygun sıvı desteği temel bakımdır. Doğrudan buz uygulanmaz. Yaygın/büllü yanık, ateş, kusma, baş dönmesi, dehidratasyon veya sıcak çarpması şüphesi bu örneğin dışındadır. Yanık deriye diklofenak/steroid otomatik eklenmez.",
+        "dose": "500–1000 mg (1–2 tablet)",
+        "frequency": "Gerektiğinde en az 6 saat ara ile; en çok 3 doz/gün",
+        "quantity": {
+          "total": 18,
+          "unit": "tablet",
+          "note": "En çok 3 gün × 3 doz/gün × 2 tablet = 18 tablet. Gerektiğinde daha az kullanılır."
+        }
+      }
+    ],
+    "seboreik-dermatit": [
+      {
+        "agent": "ketoconazole",
+        "duration": "Başlangıç için 2–4 hafta; 4 haftada yanıt yoksa tanı yeniden değerlendirilir",
+        "role": "Sınırlı cilt formunda antifungal seçenek",
+        "sources": [
+          "seb05"
+        ],
+        "condition": "Erişkinde seboreik dermatit tanısı doğrulanmış sınırlı cilt tutulumu. Göz kapağı kenarı/mukoza, bebek ve yaygın/ağır hastalık kapsam dışıdır. Saçlı deriye şampuan şemasıyla veya oral ketokonazolle değiştirilmez; uzun süreli koruyucu kullanım otomatik başlatılmaz.",
+        "dose": "Etkilenen cilt ve yakın çevresine ince tabaka",
+        "frequency": "Günde 1–2 kez",
+        "quantityNote": "Tüp adedi uygulama alanına ve süreye göre hekimce belirlenir; bir tüpün bütün tedaviye yeteceği varsayılmaz."
+      }
+    ],
+    "bakteriyel-folikulit": [
+      {
+        "agent": "fusidic",
+        "duration": "5 günlük başlangıç örneği; 48–72 saatte yanıt kontrolü. Kılavuz aralığı 5–7 gün; uzatma hekim kararıyla.",
+        "role": "Koşullu topikal antibiyotik",
+        "condition": "Sınırlı, yüzeyel, stafilokokal olduğu düşünülen olgu; hijyen ve lokal bakıma rağmen sürüyorsa topikal antibiyotik değerlendirilir. Hafif olguda ilaç gerekmeyebilir. Mantar/pseudofolikülit, sıcak havuz ilişkili Pseudomonas, apse/furonkül, yaygın lezyon, ateş veya immünsüpresyon bu örneğin dışındadır. Gerekirse kültür alınır; tekrarlayan antibiyotik kullanımından kaçınılır.",
+        "sources": [
+          "follicle05",
+          "follicleDuration05"
+        ],
+        "quantityNote": "Tüp adedi uygulama alanına ve süreye göre hekimce belirlenir; bir tüpün bütün tedaviye yeteceği varsayılmaz."
+      }
+    ]
+  },
+  "sources": {
+    "period05": {
+      "name": "NHS — primer adet ağrısında yaklaşım",
+      "url": "https://www.nhs.uk/symptoms/period-pain/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "dental05": {
+      "name": "SDCEP — odontojenik ağrı, geçici analjezi ve asıl tedavi",
+      "url": "https://www.sdcepdentalprescribing.nhs.scot/guidance/odontogenic-pain/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "dentalSafety05": {
+      "name": "SDCEP — analjezik/antibiyotik uyarıları",
+      "url": "https://sdcepdentalprescribing.nhs.scot/guidance/supporting-tools/contraindications-cautions/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "chest05": {
+      "name": "NHS — kostokondrit ve göğüs ağrısının ayırıcı değerlendirmesi",
+      "url": "https://www.nhs.uk/conditions/costochondritis/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "shoulder05": {
+      "name": "JOSPT 2025 — rotator manşet tendinopatisi klinik kılavuzu",
+      "url": "https://doi.org/10.2519/jospt.2025.13182",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "wrist05": {
+      "name": "Newcastle Hospitals — De Quervain sendromu",
+      "url": "https://www.newcastle-hospitals.nhs.uk/services/newcastle-occupational-health-service/information-for-staff/physiotherapy/self-help-leaflets/de-quervains-syndrome/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "heel05": {
+      "name": "RNOH — plantar fasiitte yaklaşım",
+      "url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/inferior-heel-pain",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "bite05": {
+      "name": "NHS — böcek ısırması/sokmasında lokal bakım",
+      "url": "https://www.nhs.uk/conditions/insect-bites-and-stings/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "hydro05": {
+      "name": "NHS — topikal hidrokortizon, kısa kullanım",
+      "url": "https://www.nhs.uk/medicines/hydrocortisone-for-skin/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "sun05": {
+      "name": "NHS — güneş yanığında bakım ve ağrı kontrolü",
+      "url": "https://www.nhs.uk/conditions/sunburn/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "seb05": {
+      "name": "NHS — seboreik dermatitte ketokonazol krem",
+      "url": "https://www.nhs.uk/medicines/ketoconazole/how-and-when-to-use-ketoconazole/",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "follicle05": {
+      "name": "Malezya Sağlık Bakanlığı — erişkinde sınırlı stafilokokal folikülit",
+      "url": "https://sites.google.com/moh.gov.my/nag/contents/section-a-adult/a14-skin-soft-tissue-infections?authuser=0",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    },
+    "follicleDuration05": {
+      "name": "BAE Sağlık Bakanlığı — SSTI kılavuzu, folikülitte 5–7 gün; Haziran 2024",
+      "url": "https://mohap.gov.ae/documents/20117/1212145/national%2Bguidelines%2Bon%2Bthe%2Bempiric%2Bantibiotic%2Btreatment%2Bof%2BSSTI_638569065425100719.pdf/e92c1aa2-ebf1-9b7d-4827-51de9f605515?t=1739162163352",
+      "date": "28 Ekim 2026 tarihinde incelendi"
+    }
+  },
+  "reusedProducts": {
+    "diclofenac": [
+      {
+        "id": "voltaren",
+        "name": "VOLTAREN EMULGEL %1,16",
+        "pack": "50 g jel",
+        "size": 50,
+        "unit": "g",
+        "barcode": "8681291340079",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/voltaren-emulgel-1-50-gr-jel-4712",
+        "kub": "diclofenacKub"
+      },
+      {
+        "id": "diclomec",
+        "name": "DİCLOMEC %1,16",
+        "pack": "50 g jel",
+        "size": 50,
+        "unit": "g",
+        "barcode": "8699514346302",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/diclomec-1-16-jel-50-gram-4178",
+        "kub": "diclomecKub"
+      }
+    ],
+    "fusidic": [
+      {
+        "id": "fucidin",
+        "name": "FUCİDİN %2",
+        "pack": "20 g krem",
+        "size": 20,
+        "unit": "g",
+        "barcode": "8699514352853",
+        "price": 152.63,
+        "priceDate": "2026-10-24",
+        "source": "https://www.ilacabak.com/fucidin-2-20-gr-krem-100",
+        "kub": "fusidicKub",
+        "checkedOn": "2026-10-28"
+      },
+      {
+        "id": "fucitec",
+        "name": "FUCİTEC %2",
+        "pack": "20 g krem",
+        "size": 20,
+        "unit": "g",
+        "barcode": "8699569350118",
+        "price": 152.62,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/fucitec-2-krem-d4fe/",
+        "kub": "fucitecKub",
+        "checkedOn": "2026-10-28"
+      }
+    ],
+    "hydrocortisone": [
+      {
+        "id": "hipokort",
+        "name": "HİPOKORT %0,5",
+        "pack": "30 g krem",
+        "size": 30,
+        "unit": "g",
+        "barcode": "8699561350185",
+        "price": 152.63,
+        "priceDate": "2026-09-08",
+        "source": "https://ilacfiyati.com/ilaclar/hipokort-0-5-30-gr-krem",
+        "kub": "hydrocortisoneKub",
+        "checkedOn": "2026-10-28"
+      }
+    ],
+    "ketoconazole": [
+      {
+        "id": "ketoral",
+        "name": "KETORAL %2",
+        "pack": "40 g krem",
+        "size": 40,
+        "unit": "g",
+        "barcode": "8699569350026",
+        "price": 229.98,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/ketoral-2-krem-40-g-1080",
+        "kub": "ketoconazoleKub"
+      },
+      {
+        "id": "ketoderm",
+        "name": "KETODERM %2",
+        "pack": "30 g krem",
+        "size": 30,
+        "unit": "g",
+        "barcode": "8699792352019",
+        "price": 182.41,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/ketoderm-2-krem-30-gram-2740",
+        "kub": "ketodermKub"
+      }
+    ],
+    "naproxen": [
+      {
+        "id": "apranax",
+        "name": "APRANAX FORT 550 mg",
+        "pack": "10 film tablet",
+        "size": 10,
+        "unit": "tablet",
+        "barcode": "8699514091523",
+        "price": 151.51,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/apranax-fort-550-mg-10-film-kapli-tablet-14510",
+        "kub": "naproxenKub",
+        "checkedOn": "2026-10-28"
+      },
+      {
+        "id": "aprol",
+        "name": "APROL FORT 550 mg",
+        "pack": "10 film tablet",
+        "size": 10,
+        "unit": "tablet",
+        "barcode": "8699569090045",
+        "price": 127.79,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/ilac-fiyatlari/8699569090045/",
+        "kub": "aprolKub",
+        "checkedOn": "2026-10-28"
+      }
+    ],
+    "paracetamol": [
+      {
+        "id": "parol",
+        "name": "PAROL 500 mg",
+        "pack": "20 tablet",
+        "size": 20,
+        "unit": "tablet",
+        "barcode": "8699717010109",
+        "price": 79.1,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/parol-500-mg-tablet-c682/",
+        "kub": "paracetamolKub"
+      },
+      {
+        "id": "minoset",
+        "name": "MİNOSET 500 mg",
+        "pack": "20 tablet",
+        "size": 20,
+        "unit": "tablet",
+        "barcode": "8699546015597",
+        "price": 74.86,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/minoset-500-mg-20-tablet-5248",
+        "kub": "minosetKub"
+      }
+    ]
+  },
+  "productChecks": [
+    {
+      "product": {
+        "id": "voltaren",
+        "name": "VOLTAREN EMULGEL %1,16",
+        "pack": "50 g jel",
+        "size": 50,
+        "unit": "g",
+        "barcode": "8681291340079",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/voltaren-emulgel-1-50-gr-jel-4712",
+        "kub": "diclofenacKub"
+      },
+      "skrs": {
+        "name": "VOLTAREN EMULGEL %1 50 GR JEL",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A08490",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "diclomec",
+        "name": "DİCLOMEC %1,16",
+        "pack": "50 g jel",
+        "size": 50,
+        "unit": "g",
+        "barcode": "8699514346302",
+        "price": 152.63,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/diclomec-1-16-jel-50-gram-4178",
+        "kub": "diclomecKub"
+      },
+      "skrs": {
+        "name": "DICLOMEC %1 50 GR JEL",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A02361",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "fucidin",
+        "name": "FUCİDİN %2",
+        "pack": "20 g krem",
+        "size": 20,
+        "unit": "g",
+        "barcode": "8699514352853",
+        "price": 152.63,
+        "priceDate": "2026-10-24",
+        "source": "https://www.ilacabak.com/fucidin-2-20-gr-krem-100",
+        "kub": "fusidicKub",
+        "checkedOn": "2026-10-28"
+      },
+      "skrs": {
+        "name": "FUCIDIN % 2 20 GR KREM",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A03208",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "fucitec",
+        "name": "FUCİTEC %2",
+        "pack": "20 g krem",
+        "size": 20,
+        "unit": "g",
+        "barcode": "8699569350118",
+        "price": 152.62,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/fucitec-2-krem-d4fe/",
+        "kub": "fucitecKub",
+        "checkedOn": "2026-10-28"
+      },
+      "skrs": {
+        "name": "FUCITEC %2 KREM 20 GR",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A13738",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "hipokort",
+        "name": "HİPOKORT %0,5",
+        "pack": "30 g krem",
+        "size": 30,
+        "unit": "g",
+        "barcode": "8699561350185",
+        "price": 152.63,
+        "priceDate": "2026-09-08",
+        "source": "https://ilacfiyati.com/ilaclar/hipokort-0-5-30-gr-krem",
+        "kub": "hydrocortisoneKub",
+        "checkedOn": "2026-10-28"
+      },
+      "skrs": {
+        "name": "HIPOKORT %0.5 30 GR KREM",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A03616",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "ketoral",
+        "name": "KETORAL %2",
+        "pack": "40 g krem",
+        "size": 40,
+        "unit": "g",
+        "barcode": "8699569350026",
+        "price": 229.98,
+        "priceDate": "2026-09-04",
+        "source": "https://www.ilacabak.com/ketoral-2-krem-40-g-1080",
+        "kub": "ketoconazoleKub"
+      },
+      "skrs": {
+        "name": "KETORAL % 2 40 GR KREM",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A04288",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "ketoderm",
+        "name": "KETODERM %2",
+        "pack": "30 g krem",
+        "size": 30,
+        "unit": "g",
+        "barcode": "8699792352019",
+        "price": 182.41,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/ketoderm-2-krem-30-gram-2740",
+        "kub": "ketodermKub"
+      },
+      "skrs": {
+        "name": "KETODERM %2 KREM 30 GRAM",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A09365",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "apranax",
+        "name": "APRANAX FORT 550 mg",
+        "pack": "10 film tablet",
+        "size": 10,
+        "unit": "tablet",
+        "barcode": "8699514091523",
+        "price": 151.51,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/apranax-fort-550-mg-10-film-kapli-tablet-14510",
+        "kub": "naproxenKub",
+        "checkedOn": "2026-10-28"
+      },
+      "skrs": {
+        "name": "APRANAX FORTE 550 MG 10 FILM KAPLI TABLET",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A00829",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "aprol",
+        "name": "APROL FORT 550 mg",
+        "pack": "10 film tablet",
+        "size": 10,
+        "unit": "tablet",
+        "barcode": "8699569090045",
+        "price": 127.79,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/ilac-fiyatlari/8699569090045/",
+        "kub": "aprolKub",
+        "checkedOn": "2026-10-28"
+      },
+      "skrs": {
+        "name": "APROL 550 MG 10 TABLET",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A00837",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "parol",
+        "name": "PAROL 500 mg",
+        "pack": "20 tablet",
+        "size": 20,
+        "unit": "tablet",
+        "barcode": "8699717010109",
+        "price": 79.1,
+        "priceDate": "2026-08-31",
+        "source": "https://www.ilacrehberi.com/v/parol-500-mg-tablet-c682/",
+        "kub": "paracetamolKub"
+      },
+      "skrs": {
+        "name": "PAROL 500 MG 20 TABLET",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A05960",
+      "fullVerification": false
+    },
+    {
+      "product": {
+        "id": "minoset",
+        "name": "MİNOSET 500 mg",
+        "pack": "20 tablet",
+        "size": 20,
+        "unit": "tablet",
+        "barcode": "8699546015597",
+        "price": 74.86,
+        "priceDate": "2026-09-04",
+        "source": "https://ilacabak.com/minoset-500-mg-20-tablet-5248",
+        "kub": "minosetKub"
+      },
+      "skrs": {
+        "name": "MINOSET 500 MG 20 TABLET",
+        "status": "Aktif",
+        "prescriptionType": "Normal"
+      },
+      "ek4aCode": "A05042",
+      "fullVerification": false
+    }
+  ],
+  "newProducts": 0,
+  "newOptions": 16,
+  "activeListDate": "2026-10-20",
+  "activeListSha256": "a813594b388a7e329fb3aed40623bc4b71ac798d1b147796bcc0e9a7c1d3810e",
+  "limitations": [
+    "Yeni marka eklenmedi; mevcut 11 ürün yeni tanılarda yeniden kullanıldı.",
+    "Aktif SKRS / EK-4A eşleşmesi güncel resmî fiyat, fiilî stok veya her hasta/endikasyonda SGK uygunluğu değildir.",
+    "İkincil fiyat kaynaklarının kendi tarihleri korunur; Fucidin sayfasında 24 Ekim 2026 güncellemesi görüldü.",
+    "Hekim incelemesi kaydedilmedi; tam doğrulanmış reçete sayısı sıfır.",
+    "Diş ağrısında APRANAX gösterilir; APROL bu kartta listelenmez.",
+    "Yabancı kılavuzlardaki marka adları Türkiye ürün listesine aktarılmadı."
+  ]
+}

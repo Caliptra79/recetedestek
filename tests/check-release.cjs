@@ -15,7 +15,7 @@ const result=vm.runInNewContext(pure+'\n'+risks+`\n(()=>{
  antibioticTablets:CLINICAL_PLANS.sinuzit.find(p=>p.agent==='amoxiclav').quantity.total,antibioticBoxes:BRANDS.amoxiclav.map(b=>Math.ceil(10/b.size)),paracetamolBoxes:BRANDS.paracetamol.map(b=>Math.ceil(18/b.size)),
  invalid:[isPublishable({}),isPublishable({verification:{active:true},medicines:[{}]})],search:matches(DIAGNOSES.find(d=>d.id==='tinea-cruris'),'kasik mantari')};
 })()`);
-assert.equal(result.count,40);assert.equal(result.unique,40);assert.equal(result.sampleDiagnoses,40);assert.equal(result.options,50);assert.equal(result.products,35);assert(result.maxBrands<=3);assert.equal(result.published,0);
+assert.equal(result.count,50);assert.equal(result.unique,50);assert.equal(result.sampleDiagnoses,50);assert.equal(result.options,66);assert.equal(result.products,35);assert(result.maxBrands<=3);assert.equal(result.published,0);
 for(const k of ['completeReferences','allergyHeld','pregnancyHeld','renalAntibioticHeld','clearRisk','search'])assert.equal(result[k],true,k);
 assert.equal(JSON.stringify(result.antibioticOnlySinus),'["sinuzit"]');assert.equal(result.antibioticTablets,10);assert.equal(JSON.stringify(result.antibioticBoxes),'[1,1,1]');assert.equal(JSON.stringify(result.paracetamolBoxes),'[1,1]');assert.equal(JSON.stringify(result.invalid),'[false,false]');
 for(const text of ['Geliştirme önizlemesi','Reçete Hazırlanıyor','Etken Madde Bilgisi Var','renderReports','href="#raporlu"','id="category-chips"'])assert(!html.includes(text),text);
@@ -43,3 +43,16 @@ console.log('Yeni 20 tanı: ürün, kapsam ve miktar kontrolleri geçti.');
 
 assert.equal(JSON.stringify(added.plans.urtiker[0].brandIds),'["zyrtec"]');
 assert.equal(added.addedProducts,25);
+
+const expansion=JSON.parse(fs.readFileSync(__dirname+'/../docs/expansion-group-05.json','utf8'));
+assert.equal(expansion.diagnoses.length,10);assert.equal(expansion.newOptions,16);assert.equal(expansion.newProducts,0);
+assert.equal(new Set(expansion.diagnoses.map(d=>d.id)).size,10);
+for(const d of expansion.diagnoses){assert.equal(d.batch,5);assert(expansion.plans[d.id].length);}
+assert.equal(JSON.stringify(expansion.plans['pulpit-dis-agrisi'][0].brandIds),'["apranax"]');
+assert.equal(expansion.plans['hafif-gunes-yanigi'].length,1);
+assert.equal(expansion.plans['hafif-gunes-yanigi'][0].agent,'paracetamol');
+assert.equal(expansion.plans['bocek-reaksiyonu'][0].agent,'hydrocortisone');
+assert(expansion.plans.kostokondrit[0].condition.includes('Palpasyonla ağrı tek başına'));
+assert(expansion.plans['bakteriyel-folikulit'][0].condition.includes('ilaç gerekmeyebilir'));
+for(const c of expansion.productChecks){assert.equal(c.skrs.status,'Aktif');assert.equal(c.skrs.prescriptionType,'Normal');assert(c.ek4aCode);}
+console.log('10 yeni tanı / 16 örnek: kapsam ve ürün eşleşmeleri geçti.');
